@@ -25,6 +25,10 @@ header{
     font-family: Eina,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     margin-bottom: 32px;
     margin-top: -11px;
+    background-image: url('https://www.instacart.com/image-server/x856/www.instacart.com/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
 }
 .america-icon{
     padding: 10px 24px;
@@ -35,7 +39,7 @@ header{
 }
 .groceries{
     padding-left: 144px;
-    text-align: left;
+    text-align: center;
     padding-bottom: 100px;
     line-height: 20px;
 }
@@ -48,13 +52,14 @@ header{
     line-height: 52px;
     font-weight: 600;
     color: rgb(52, 53, 56);
-    margin: 0px;
+    margin-left: 280px;
     width: 527px;
 }
 .header-paragraph{
     font-size: 15px;
     line-height: 22px;
     margin-top: 16px;
+    margin-left: -98px;
 }
 .header-input{
     border-radius: 12px;
@@ -64,6 +69,19 @@ header{
     width: 432px;
     font-size: 18px;
     margin-top: 20px;
+    margin-left: 323px;
+    display: flex;
+    justify-content: space-between;
+}
+.enter-paragraph{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    font-family: inherit;
+    color: rgb(52, 53, 56);
+    width: 100%;
+    border: none;
+    margin-left: 14px;
 }
 .grocery-delivery{
     margin: 32px 0;
@@ -182,7 +200,7 @@ section{
 .accordians{
    display: flex;
    flex-direction: column;
-   align-items: baseline;
+   margin-left: 100px;
 }
 .section-four-heading{
     font-size: 31px;
@@ -400,6 +418,18 @@ footer{
     margin-left: 895px;
     margin-top: 6px;
     font-weight: 500;
+}
+.details-paragraph{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 15% 0px 0px;
+    width: 116%;
+}
+.details-heading{
+    font-size: 28px;
+    line-height: 32px;
+    color: #424242;
+    width: 102%;
 }
 
 
